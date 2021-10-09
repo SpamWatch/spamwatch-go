@@ -1,0 +1,1 @@
+# SpamWatch API Go Wrapper
