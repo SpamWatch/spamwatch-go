@@ -1,4 +1,4 @@
-# <img src="https://avatars.githubusercontent.com/u/37397813?s=200&v=4" width="35px" align="left"></img> SpamWatch API Go Wrapper 
+# <a href="https://telegram.me/SpamWatch"><img src="https://avatars.githubusercontent.com/u/37397813?s=200&v=4" width="35px" align="left"></img></a> SpamWatch API Go Wrapper 
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/SpamWatch/spamwatch-go.svg)](https://pkg.go.dev/github.com/SpamWatch/spamwatch-go) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 
@@ -51,6 +51,7 @@ func main() {
 ```
 
 Still need more examples? Take a look at the [examples directory](examples).
+Ask your doubts at the [support group](https://telegram.me/SpamWatchSupport).
 
 <hr/>
 
