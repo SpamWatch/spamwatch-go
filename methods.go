@@ -71,7 +71,7 @@ func (s *SpamWatch) GetBans() (*[]BanList, error) {
 
 // This returns a newline seperated list of all Bans. This method currently ignores the Accept header and will always return a newline seperated list. In the future it might return a JSON with the corresponding content type.
 // https://docs.spamwat.ch/?go#getting-a-list-of-banned-ids
-func (s *SpamWatch) GetBanMin() ([]int64, error) {
+func (s *SpamWatch) GetBansMin() ([]int64, error) {
 	b, err := s.MakeRequest(http.MethodGet, "banlist/all", nil)
 	if err != nil {
 		return nil, err
