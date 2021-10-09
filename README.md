@@ -23,7 +23,7 @@ You can easily download the library with the standard `go get` command:
 go get github.com/SpamWatch/spamwatch-go
 ```
 
-Full documentation of this api, can be found [here](https://docs.spamwat.ch/).
+Full documentation of this API, can be found [here](https://docs.spamwat.ch/).
 
 <hr/>
 
@@ -56,4 +56,6 @@ Still need more examples? Take a look at the [examples directory](examples).
 
 ## License
 
+[![GNU General Public License v3.0](https://www.gnu.org/graphics/gplv3-127x51.png)](https://www.gnu.org/licenses/gpl-3.0.en.html#header)
 The spamwatch-go project is under the [GPL-3.0](https://opensource.org/licenses/GPL-3.0) license. You can find the license file [here](LICENSE).
+
