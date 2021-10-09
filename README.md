@@ -51,6 +51,7 @@ func main() {
 ```
 
 Still need more examples? Take a look at the [examples directory](examples).
+
 Ask your doubts at the [support group](https://telegram.me/SpamWatchSupport).
 
 <hr/>
