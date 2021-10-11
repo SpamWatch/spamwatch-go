@@ -10,6 +10,9 @@ func Client(token string, opts *ClientOpts) *SpamWatch {
 	if opts == nil {
 		opts = &ClientOpts{}
 	}
+	if string(opts.ApiUrl[len(opts.ApiUrl)-1]) != "/" {
+		opts.ApiUrl = opts.ApiUrl + "/"
+	}
 	if opts.ApiUrl == "" {
 		opts.ApiUrl = DEFAULT_API_URL
 	}
